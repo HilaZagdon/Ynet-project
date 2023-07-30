@@ -8,7 +8,7 @@ body {
   width: 1240px;
   margin-right: auto;
   margin-left: auto;
-  height: auto;
+  height: 1800px;
 }
 
 .topAd {
@@ -677,4 +677,90 @@ h1 {
 .commerciallistarticle2 {
 }
 .commerciallistarticle3 {
+}
+
+.containermoretitlesbelow {
+  position: relative;
+  padding-bottom: 0;
+  width: 1240px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.containerforbigtitles {
+  margin-bottom: 20px;
+}
+
+.textbigtitles {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+.righttexttitle {
+  width: 49.75%;
+  display: flex;
+  height: 30px;
+  background-color: #1417ac;
+  margin-left: 1vw;
+  padding-right: 10px;
+  align-self: center;
+}
+
+.lefttexttitle {
+  background-color: #1417ac;
+  width: 49.75%;
+  height: 30px;
+  padding-right: 10px;
+  display: flex;
+  align-self: center;
+}
+
+.imgstitles {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 190px;
+  height: 107px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.textareaimg {
+  height: 60px;
+  margin-bottom: 7px;
+  direction: rtl;
+}
+
+.mediumtext {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  height: 60px;
+  color: black;
+  direction: rtl;
+}
+
+.mediumtext:hover {
+  color: #1737c3;
+}
+
+.moredetailstext {
+  font-size: 13px;
+  max-height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  height: auto;
+  font-weight: 600;
+  color: #78787b;
+  direction: rtl;
+  float: right;
+}
+
+.imgtitle1 {
+  margin-left: 20px;
 }
