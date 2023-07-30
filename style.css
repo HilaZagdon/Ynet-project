@@ -230,7 +230,7 @@ a {
 }
 
 .movingboxes {
-  width: 1240px;
+  width: 1237px;
   position: absolute;
   top: 20px;
   left: 0;
@@ -329,7 +329,7 @@ a {
 .insidetext {
   font-size: 15px;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: bold;
   width: 180px;
   height: auto;
   display: flex;
@@ -361,8 +361,8 @@ a {
 }
 
 #alltitle {
-  width: 156px;
-  height: 100px;
+  width: 150px;
+  height: 80px;
   text-align: center;
   color: #de1a1a;
   font-size: 15px;
@@ -374,7 +374,7 @@ a {
   justify-content: center;
   background-color: #f3f8f9;
   margin-right: 1085px;
-  margin-top: -100px;
+  margin-top: -70px;
 }
 
 #alltitle a:visited {
@@ -392,4 +392,245 @@ a {
   border-radius: 20px;
   margin-right: 35px;
   margin-left: 0px;
+}
+
+.bigcontainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  width: 35vw;
+  height: 55vh;
+  position: relative;
+}
+.datebigarticle {
+  display: flex;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  pointer-events: none;
+  position: absolute;
+  text-align: right;
+  margin-bottom: 34px;
+}
+
+.bigarticletitle {
+  font-size: 48px;
+  line-height: 0.9;
+  letter-spacing: -0.3px;
+  vertical-align: middle;
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+  margin: 0.9375vw 2.8125vw;
+  text-align: right;
+  margin-block-start: 1.2em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  cursor: pointer;
+  font-family: "Narkiss Block Regular";
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Narkiss Block Regular";
+  font-size: 48px;
+}
+
+.bigarticletext {
+  display: flex;
+  position: absolute;
+  margin-top: 26vh;
+  text-align: right;
+  font-size: 18px;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.credits {
+  font-size: 15px;
+  font-weight: 500;
+  color: #949494;
+  margin-top: 20.5vw;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  direction: rtl;
+  padding-bottom: 15.625vw;
+  position: absolute;
+  text-align: right;
+}
+
+.bigarticleimg {
+  width: 40.35vw;
+  height: 46vh;
+  position: absolute;
+  margin-top: -55vh;
+  display: inline-flex;
+  cursor: pointer;
+  direction: rtl;
+}
+
+.otherarticlebox {
+  position: relative;
+  top: -5.5vh;
+  min-height: 517px;
+  padding-bottom: 0;
+  width: 80.7vw;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  display: block;
+  direction: ltr;
+  line-height: 1.15;
+}
+
+.otherarticlegrid {
+  width: 50%;
+  position: absolute;
+  top: -2vh;
+  margin-left: -50%;
+}
+
+.listtitleheader {
+  color: white;
+  font-size: 19px;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+  direction: rtl;
+  cursor: pointer;
+  text-align: right;
+  width: 67%;
+  padding-top: 2%;
+}
+
+.listtext {
+  color: white;
+  width: 66%;
+  margin-left: 1.2%;
+  text-align: right;
+  margin-top: -2%;
+  font-size: 15px;
+}
+
+.creditslist1 {
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  margin-left: 6.8%;
+  position: absolute;
+  bottom: 1.5vh;
+}
+.creditslist2 {
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  margin-left: 8.5%;
+  position: absolute;
+  bottom: 1.5vh;
+}
+
+.creditslist3 {
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  margin-left: 10.3%;
+  position: absolute;
+  bottom: 1.5vh;
+}
+
+.creditslist4 {
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  position: absolute;
+  bottom: 1.5vh;
+  margin-left: -5.6%;
+}
+
+.firstlistarticle {
+  width: 100%;
+  height: 113px;
+  position: relative;
+  background-color: #de1a1a;
+}
+
+.firstlistarticlejpg {
+  width: 200px;
+  height: 113px;
+  position: absolute;
+  display: flex;
+  right: 0px;
+}
+
+.secondlistarticle {
+  margin-top: 2vh;
+  width: 100%;
+  height: 113px;
+  position: relative;
+  background-color: #1417ac;
+}
+
+.secondlistarticlejpg {
+  width: 200px;
+  height: 113px;
+  position: absolute;
+  display: flex;
+  right: 0px;
+}
+
+.thirdlistarticle {
+  margin-top: 2vh;
+  width: 100%;
+  height: 113px;
+  position: relative;
+  background-color: #de1a1a;
+}
+
+.thirdlistarticlejpg {
+  width: 200px;
+  height: 113px;
+  position: absolute;
+  display: flex;
+  right: 0px;
+}
+
+.fourthlistarticle {
+  margin-top: 2vh;
+  width: 100%;
+  height: 113px;
+  position: relative;
+  background-color: #0c1c3a;
+}
+
+.fourthlistarticlejpg {
+  width: 200px;
+  height: 113px;
+  position: absolute;
+  display: flex;
+  right: 0px;
+}
+
+.commercialcontainer {
+  width: 28vw;
+  height: 100%;
+  position: relative;
+  background-color: #949494;
+}
+.commerciallistarticle {
+  display: block;
+  width: 10vw;
+  height: 10vh;
+  border: 1px solid black;
+}
+
+.commerciallistarticle1 {
+}
+.commerciallistarticle2 {
+}
+.commerciallistarticle3 {
 }
