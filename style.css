@@ -65,7 +65,6 @@ body {
   margin-left: 15px;
 }
 #redmail {
-  margin-right: 15px;
   display: flex;
   align-items: center;
 }
@@ -119,6 +118,51 @@ a {
   top: 0%;
   flex-direction: column;
   z-index: 200;
+}
+
+.accessibilty {
+  position: fixed;
+  left: -12px;
+  top: 100px;
+  width: 55px;
+  height: 46px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 900;
+}
+
+.butterfly {
+  height: 25px;
+  width: 25px;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.butterflybutton {
+  position: fixed;
+  top: 160px;
+  left: -16px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: flex-end;
+  z-index: 5;
+}
+
+.butterflybutton:hover {
+  transition: 0.5s;
+  width: 60px;
+}
+
+.movingbackground {
+  width: 50px;
+  height: 29px;
+  background: #24aae2;
+  border-radius: 0 30px 30px 0;
+  float: left;
 }
 
 .rednav {
